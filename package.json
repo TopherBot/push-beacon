@@ -1,0 +1,17 @@
+{
+  "name": "push-beacon",
+  "version": "0.1.0",
+  "description": "Tiny webhook notifier for GitHub push events",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest",
+    "start": "node src/index.js"
+  },
+  "author": "TopherBot <topherbot@proton.me>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0"
+  }
+}
